@@ -13,50 +13,6 @@
     </image>
     
     <item>
-      <title>Example Talk</title>
-      <link>/talk/example-talk/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>/talk/example-talk/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A Unified Learning-Based Framework for Light Field Reconstruction From Coded Projections</title>
-      <link>/project/lf/</link>
-      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>/project/lf/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Proposed a unified deep learning based framework for LF reconstruction from coded measurements. Our main
-step is the disparity estimation network DisparityNet, which we train using indirect supervision from viewsynthesis.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Using our reconstruction algorithm analyzed three different LF reconstruction frameworks 1) compressive light field (CLF) 2) coded aperture (CA) and 3) focus-defocus (FocDef) image pair.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Showed that with our unified LF reconstruction pipeline, we are on par with the state-of-the-art techniques
-in all the multiplexing schemes. Our FocDef approach with no additional hardware requirement performs better than hardware intensive CLF and CA.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Demonstrated that we can reconstruct high resolution light field from real focus-defocus image pair captured using a DSLR.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>The Lottery Ticket Hypothesis for Object Recognition</title>
       <link>/project/lth/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
@@ -110,6 +66,50 @@ in all the multiplexing schemes. Our FocDef approach with no additional hardware
 &lt;p&gt;Employing the introduced model and prior, proposed a practical DL-BMD method that achieves state-of-the art performance for current Dual lens set-up.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Unified Learning-Based Framework for Light Field Reconstruction From Coded Projections</title>
+      <link>/project/lf/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/project/lf/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Proposed a unified deep learning based framework for LF reconstruction from coded measurements. Our main
+step is the disparity estimation network DisparityNet, which we train using indirect supervision from viewsynthesis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Using our reconstruction algorithm analyzed three different LF reconstruction frameworks 1) compressive light field (CLF) 2) coded aperture (CA) and 3) focus-defocus (FocDef) image pair.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Showed that with our unified LF reconstruction pipeline, we are on par with the state-of-the-art techniques
+in all the multiplexing schemes. Our FocDef approach with no additional hardware requirement performs better than hardware intensive CLF and CA.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Demonstrated that we can reconstruct high resolution light field from real focus-defocus image pair captured using a DSLR.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>/talk/example-talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>/talk/example-talk/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
 </description>
     </item>
     
@@ -319,7 +319,7 @@ Three
     </item>
     
     <item>
-      <title>Towards Discovery and Attribution of Open-world GAN Generated Images</title>
+      <title>1Towards Discovery and Attribution of Open-world GAN Generated Images</title>
       <link>/publication/example/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       <guid>/publication/example/</guid>

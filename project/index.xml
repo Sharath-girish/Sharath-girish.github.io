@@ -13,30 +13,6 @@
     </image>
     
     <item>
-      <title>A Unified Learning-Based Framework for Light Field Reconstruction From Coded Projections</title>
-      <link>/project/lf/</link>
-      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>/project/lf/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Proposed a unified deep learning based framework for LF reconstruction from coded measurements. Our main
-step is the disparity estimation network DisparityNet, which we train using indirect supervision from viewsynthesis.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Using our reconstruction algorithm analyzed three different LF reconstruction frameworks 1) compressive light field (CLF) 2) coded aperture (CA) and 3) focus-defocus (FocDef) image pair.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Showed that with our unified LF reconstruction pipeline, we are on par with the state-of-the-art techniques
-in all the multiplexing schemes. Our FocDef approach with no additional hardware requirement performs better than hardware intensive CLF and CA.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Demonstrated that we can reconstruct high resolution light field from real focus-defocus image pair captured using a DSLR.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>The Lottery Ticket Hypothesis for Object Recognition</title>
       <link>/project/lth/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
@@ -88,6 +64,30 @@ in all the multiplexing schemes. Our FocDef approach with no additional hardware
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Employing the introduced model and prior, proposed a practical DL-BMD method that achieves state-of-the art performance for current Dual lens set-up.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Unified Learning-Based Framework for Light Field Reconstruction From Coded Projections</title>
+      <link>/project/lf/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/project/lf/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Proposed a unified deep learning based framework for LF reconstruction from coded measurements. Our main
+step is the disparity estimation network DisparityNet, which we train using indirect supervision from viewsynthesis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Using our reconstruction algorithm analyzed three different LF reconstruction frameworks 1) compressive light field (CLF) 2) coded aperture (CA) and 3) focus-defocus (FocDef) image pair.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Showed that with our unified LF reconstruction pipeline, we are on par with the state-of-the-art techniques
+in all the multiplexing schemes. Our FocDef approach with no additional hardware requirement performs better than hardware intensive CLF and CA.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Demonstrated that we can reconstruct high resolution light field from real focus-defocus image pair captured using a DSLR.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
