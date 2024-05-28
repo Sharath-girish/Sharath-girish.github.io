@@ -33,12 +33,10 @@
   
     
   
-  <meta name="description" content="_IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023_ 
-
- We propose an implicit neural representation (INR) algorithm for videos by fitting separate networks to groups of frames while performing patch-wise prediction. This design shares computation in the spatial and temporal dimension leading to reduced encoding times. The video representation is modeled autoregressively with networks fit on a current group conditioned on the previous group&#39;s network weights. We achieve 12X speedups compared to prior video INR approaches while maintaining encoding quality and compression rate. Additionally, we adapt to video content and naturally scale to longer videos or larger frame resolution." />
+  <meta name="description" content="We introduce an end-to-end trainable compression framework for 3D Gaussian Splatting (3D-GS). We learn quantized latent representations and parameterized decoders reducing per-point memory for each Gaussian. We introduce a coarse-to-fine progressive training strategy for accelerating training while improving the optimization. We also develop a pruning stage resulting in fewer Gaussians and faster rendering speeds for 3D-GS." />
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/nirvana/" />
+  <link rel="alternate" hreflang="en-us" href="/publication/eagles/" />
 
   
 
@@ -278,7 +276,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hub2661221ca941055e31502e0e72166d7_101256_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hub2661221ca941055e31502e0e72166d7_101256_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="/publication/nirvana/" />
+  <link rel="canonical" href="/publication/eagles/" />
 
   
   
@@ -294,12 +292,10 @@
   <meta property="twitter:card" content="summary_large_image" />
   
   <meta property="og:site_name" content="Sharath Girish" />
-  <meta property="og:url" content="/publication/nirvana/" />
-  <meta property="og:title" content="NIRVANA: Neural Implicit Representations of Videos with Adaptive Networks and Autoregressive Patch-wise Modeling | Sharath Girish" />
-  <meta property="og:description" content="_IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023_ 
-
- We propose an implicit neural representation (INR) algorithm for videos by fitting separate networks to groups of frames while performing patch-wise prediction. This design shares computation in the spatial and temporal dimension leading to reduced encoding times. The video representation is modeled autoregressively with networks fit on a current group conditioned on the previous group&#39;s network weights. We achieve 12X speedups compared to prior video INR approaches while maintaining encoding quality and compression rate. Additionally, we adapt to video content and naturally scale to longer videos or larger frame resolution." /><meta property="og:image" content="/publication/nirvana/featured.png" />
-    <meta property="twitter:image" content="/publication/nirvana/featured.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="/publication/eagles/" />
+  <meta property="og:title" content="EAGLES: Efficient Accelerated 3D Gaussians with Lightweight EncodingS | Sharath Girish" />
+  <meta property="og:description" content="We introduce an end-to-end trainable compression framework for 3D Gaussian Splatting (3D-GS). We learn quantized latent representations and parameterized decoders reducing per-point memory for each Gaussian. We introduce a coarse-to-fine progressive training strategy for accelerating training while improving the optimization. We also develop a pruning stage resulting in fewer Gaussians and faster rendering speeds for 3D-GS." /><meta property="og:image" content="/publication/eagles/featured.png" />
+    <meta property="twitter:image" content="/publication/eagles/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -329,12 +325,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/publication/nirvana/"
+    "@id": "/publication/eagles/"
   },
-  "headline": "NIRVANA: Neural Implicit Representations of Videos with Adaptive Networks and Autoregressive Patch-wise Modeling",
+  "headline": "EAGLES: Efficient Accelerated 3D Gaussians with Lightweight EncodingS",
   
   "image": [
-    "/publication/nirvana/featured.png"
+    "/publication/eagles/featured.png"
   ],
   
   "datePublished": "2023-01-01T00:00:00Z",
@@ -342,7 +338,7 @@
   
   "author": {
     "@type": "Person",
-    "name": "Shishira R Maiya*"
+    "name": "Sharath Girish"
   },
   
   "publisher": {
@@ -353,7 +349,7 @@
       "url": "/media/icon_hub2661221ca941055e31502e0e72166d7_101256_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "_IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023_ \n\n We propose an implicit neural representation (INR) algorithm for videos by fitting separate networks to groups of frames while performing patch-wise prediction. This design shares computation in the spatial and temporal dimension leading to reduced encoding times. The video representation is modeled autoregressively with networks fit on a current group conditioned on the previous group's network weights. We achieve 12X speedups compared to prior video INR approaches while maintaining encoding quality and compression rate. Additionally, we adapt to video content and naturally scale to longer videos or larger frame resolution."
+  "description": "We introduce an end-to-end trainable compression framework for 3D Gaussian Splatting (3D-GS). We learn quantized latent representations and parameterized decoders reducing per-point memory for each Gaussian. We introduce a coarse-to-fine progressive training strategy for accelerating training while improving the optimization. We also develop a pruning stage resulting in fewer Gaussians and faster rendering speeds for 3D-GS."
 }
 </script>
 
@@ -369,11 +365,11 @@
 
 
 
-  <title>NIRVANA: Neural Implicit Representations of Videos with Adaptive Networks and Autoregressive Patch-wise Modeling | Sharath Girish</title>
+  <title>EAGLES: Efficient Accelerated 3D Gaussians with Lightweight EncodingS | Sharath Girish</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="1694c54f0e1aae33a3baffb305653a5a" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="3cf714bafc8b92126ac68a7056c4a329" >
 
   
   
@@ -613,10 +609,12 @@
 
   
   
+    
+  
 
 
 <div class="article-container pt-3">
-  <h1>NIRVANA: Neural Implicit Representations of Videos with Adaptive Networks and Autoregressive Patch-wise Modeling</h1>
+  <h1>EAGLES: Efficient Accelerated 3D Gaussians with Lightweight EncodingS</h1>
 
   
 
@@ -633,14 +631,8 @@
     
 
   <span >
-      Shishira R Maiya*</span>, <span >
       Sharath Girish</span>, <span >
-      Max Ehrlich</span>, <span >
-      Hanyu Wang</span>, <span >
-      Kwot Sin Lee</span>, <span >
-      Patrick Poirson</span>, <span >
-      Pengxiang Wu</span>, <span >
-      Chen Wang</span>, <span >
+      Kamal Gupta</span>, <span >
       Abhinav Shrivastava</span>
   </div>
   
@@ -689,21 +681,35 @@
 
 
   
+    
+  
 
 
+
+<a class="btn btn-outline-primary btn-page-header" href="/https:/arxiv.org/pdf/2312.04564" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/nirvana/cite.bib">
+        data-filename="/publication/eagles/cite.bib">
   Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="/https:/github.com/Sharath-girish/efficientgaussian" target="_blank" rel="noopener">
+  Code
 </a>
 
 
 
 
-
-<a class="btn btn-outline-primary btn-page-header" href="https://www.cs.umd.edu/~shishira/Nirvana/nirvana.html" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://efficientgaussian.github.io/" target="_blank" rel="noopener">
   Project
 </a>
 
@@ -727,7 +733,7 @@
   
     
   
-  <a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/pdf/2212.14593.pdf" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/abs/2312.04564" target="_blank" rel="noopener">
     
     Paper
   </a>
@@ -739,9 +745,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 577px; max-height: 777px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 317px;">
   <div style="position: relative">
-    <img src="/publication/nirvana/featured.png" alt="" class="featured-image">
+    <img src="/publication/eagles/featured_hu45291315eda3556894215d833e007b05_2560415_720x0_resize_lanczos_3.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -752,24 +758,12 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Implicit Neural Representations (INR) have recently shown to be powerful tool for high-quality video compression. However, existing works are limiting as they do not explicitly exploit the temporal redundancy in videos, leading to a long encoding time. Additionally, these methods have fixed architectures which do not scale to longer videos or higher resolutions. To address these issues, we propose NIRVANA, which treats videos as groups of frames and fits separate networks to each group performing patch-wise prediction. This design shares computation within each group, in the spatial and temporal dimensions, resulting in reduced encoding time of the video. The video representation is modeled autoregressively, with networks fit on a current group initialized using weights from the previous group&rsquo;s model. To further enhance efficiency, we perform quantization of the network parameters during training, requiring no post-hoc pruning or quantization. When compared with previous works on the benchmark UVG dataset, NIRVANA improves encoding quality from 37.36 to 37.70 (in terms of PSNR) and the encoding speed by 12X, while maintaining the same compression rate. In contrast to prior video INR works which struggle with larger resolution and longer videos, we show that our algorithm is highly flexible and scales naturally due to its patch-wise and autoregressive designs. Moreover, our method achieves variable bitrate compression by adapting to videos with varying inter-frame motion. NIRVANA achieves 6X decoding speed and scales well with more GPUs, making it practical for various deployment scenarios.</p>
+    <p class="pub-abstract">Recently, 3D Gaussian splatting (3D-GS) has gained popularity in novel-view scene synthesis. It addresses the challenges of lengthy training times and slow rendering speeds associated with Neural Radiance Fields (NeRFs). Through rapid, differentiable rasterization of 3D Gaussians, 3D-GS achieves real-time rendering and accelerated training. They, however, demand substantial memory resources for both training and storage, as they require millions of Gaussians in their point cloud representation for each scene. We present a technique utilizing quantized embeddings to significantly reduce per-point memory storage requirements and a coarse-to-fine training strategy for a faster and more stable optimization of the Gaussian point clouds. Our approach develops a pruning stage which results in scene representations with fewer Gaussians, leading to faster training times and rendering speeds for real-time rendering of high resolution scenes. We reduce storage memory by more than an order of magnitude all while preserving the reconstruction quality. We validate the effectiveness of our approach on a variety of datasets and scenes preserving the visual quality while consuming 10-20x lesser memory and faster training/inference speed.</p>
     
 
     
     
 
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023</div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
     
 
     <div class="space-below"></div>
@@ -817,42 +811,6 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
   
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
   
     
 
